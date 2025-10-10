@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeum</title>
+
+    <link rel="shortcut icon" href="images/SVG/favicon.svg" type="image/x-icon">
+    <!-- og 링크를 보내면 노출되어지는 부분 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="리움미술관">
+    <meta property="og:url" content="https://www.leeumhoam.org/">
+    <meta property="og:image" content="images/common/logo_b.svg">
+    <meta property="og:description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <!-- 검색 관련 코드 :포털사이트에 등록하면 검색했을 때 나오는 부분 -->
+    <meta name="keywords" content="리움미술관">
+    <meta name="description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="js/jquery.fullpage.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div id="intro">
+        <video class="intro_pc" src="video/video/intro_pc.mp4" autoplay muted loop playsinline></video>
+        <video class="intro_m" src="video/video/intro_m.mp4" autoplay muted loop playsinline></video>
+        <div class="leeum_index">LEEUM</div>
+    </div>
+
+
+    <div id="wrap">
+
+        <header id="header">
+            <div class="inner">
+
+                <h1><a href="index.html">리움</a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="sub/Guide01.html">방문 안내</a>
+
+                            <ul class="depth2">
+                                <li><a href="sub/Guide01.html">공지</a></li>
+                                <li><a href="sub/Guide02.html">미술관 소개</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li><a href="sub/Exhibition01.html">전시</a>
+                            <ul class="depth2">
+                                <li><a href="sub/Exhibition01.html">현재전시</a></li>
+                                <li><a href="sub/Exhibition02.html">예정전시</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="sub/Collection01.html">소장품</a>
+                            <ul class="depth2">
+                                <li><a href="sub/Collection01.html">고미술</a></li>
+                                <li><a href="sub/Collection02.html">현대미술</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="sub/Study01.html">배움연구</a>
+                            <ul class="depth2">
+                                <li><a href="sub/Study01.html">출판</a></li>
+                                <li><a href="sub/Study02.html">프로그램</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="sub/My.html">MY</a>
+                            <ul class="depth2">
+                                <li><a href="sub/My.html">memory</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mgnb_wrap">
+
+                        <div class="m_search">
+                            <form action="#">
+                                <fieldset>
+                                    <legend>검색영역</legend>
+                                    <div class="m_input_box">
+                                        <input type="text" placeholder="검색어를 입력하시오.">
+                                        <input type="submit">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <ul class="mgnb">
+                            <li><a href="sub/Guide01.html">방문 안내</a>
+
+                                <ul class="mdepth2">
+                                    <li><a href="sub/Guide01.html">공지</a></li>
+                                    <li><a href="sub/Guide02.html">미술관 소개</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li><a href="sub/Exhibition01.html">전시</a>
+                                <ul class="mdepth2">
+                                    <li><a href="sub/Exhibition01.html">현재전시</a></li>
+                                    <li><a href="sub/Exhibition02.html">예정전시</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="sub/Collection01.html">소장품</a>
+                                <ul class="mdepth2">
+                                    <li><a href="sub/Collection01.html">고미술</a></li>
+                                    <li><a href="sub/Collection02.html">현대미술</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="sub/Study01.html">배움연구</a>
+                                <ul class="mdepth2">
+                                    <li><a href="sub/Study01.html">출판</a></li>
+                                    <li><a href="sub/Study02.html">프로그램</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="sub/My.html">MY</a>
+                                <ul class="mdepth2">
+                                    <li><a href="sub/My.html">memory</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button class="mgnb_close">메뉴닫기</button>
+                    </div>
+
+                </nav>
+
+                <div class="util">
+                    <button class="btn_search">검색창열기</button>
+                    <a href="login.html" target="_blank"><button class="btn_login">로그인하기</button></a>
+                    <button class="btn_ham">메뉴열기</button>
+                </div>
+            </div>
+
+            <div class="search">
+                <form action="#">
+                    <fieldset>
+                        <legend>검색영역</legend>
+                        <div class="search_box">
+                            <input type="text" placeholder="검색어를 입력하시오.">
+                            <input type="submit">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </header>
+
+        <div id="fullpage">
+
+            <section class="section visual">
+                <video class="video01" src="video/visual_pc.mp4" data-autoplay autoplay muted loop playsinline></video>
+                <video class="video02" src="video/video/visual_m.mp4" data-autoplay autoplay muted loop
+                    playsinline></video>
+                <div class="visual_txt">
+                    <p>과거와 현재를 바탕으로 미래를 함께 모색하고,<br>시대와 장르르 초월한 소통하는 문화적 공간</p>
+                    <h2>리움</h2>
+                </div>
+            </section>
+
+            <section class="section Exhibition fp-auto-height-responsive ">
+
+                <div class="inner">
+                    <h2>Exhibition</h2>
+                    <div class="e_box1">
+                        <div class="img_box">
+                            <img src="images/main/Exhibition_01.png" alt="전시">
+                        </div>
+
+                        <div class="txt_box">
+                            <dl>
+                                <dt>김범 개인전 《바위가 되는 법》</dt>
+                                <dd>전시 제목 "바위가 되는 법"은 김범의 아티스트 북 『변신술』(1997)에서 발췌한 것으로, 그 내용을 직접 참조하기보다는 확장된 의미에서
+                                    권력과
+                                    통제가 지배하는 세상에서 존재하는 법을 모색하고, 획일화된 주입식 교육에서 형성된 정체성과 그것의 가변적 관계에 대한 성찰로 이끕니다.
+                                </dd>
+                            </dl>
+                        </div>
+                        <a href="sub/Exhibition01.html" class="view">viwe_more</a>
+                    </div>
+
+                    <div class="e_box2">
+                        <div class="img_box">
+                            <img src="images/main/Exhibition_02.png" alt="전시">
+                        </div>
+
+                        <div class="txt_box">
+                            <dl>
+                                <dt>마우리치오 카텔란 《WE》</dt>
+                                <dd>전시 제목 《WE》는 카텔란의 작품 제목을 차용한 것이기는 하나 그 작품에 대한 직접적 참조보다는 확장된 의미에서 우리는 누구인가, 어떻게
+                                    우리가
+                                    되는가, 관계란 무엇인가라는 질문을 던집니다. 카텔란 작업에서 억압, 불안, 권위, 종교, 사랑, 나와 가족, 삶과 죽음 그리고 ‘우리’란
+                                    무엇인가에
+                                    관한 ‘생각’은 토론을 활성화하고 모종의 연대를 가능하게 합니다. </dd>
+                            </dl>
+                        </div>
+                        <a href="sub/Exhibition01.html" class="view">viwe_more</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section collection fp-auto-height-responsive ">
+                <div class="inner">
+
+                    <div class="coll_img">
+                        <img src="images/main/Collection_left.png" alt="Collection">
+                    </div>
+
+                    <div class="coll_txt">
+                        <div class="title">
+                            <h2>Collection</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="sub/Collection02.html">
+                                    <img src="images/main/Collection_04.png" alt="현대미술">
+                                    <dl>
+                                        <dt>LEEUM Collection <br>현대미술</dt>
+                                        <dd>리움미술관의 더 많은 현대미술 작품을 살펴보세요.</dd>
+                                    </dl>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="sub/Collection01.html">
+                                    <img src="images/main/Collection_009.png" alt="고미술">
+                                    <dl>
+                                        <dt>LEEUM Collection <br>고미술</dt>
+                                        <dd>리움미술관의 더 많은 고미술 작품을 살펴보세요.</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section study fp-auto-height-responsive">
+                <h2>study</h2>
+                <div class="inner">
+
+                    <div class="study_tab">
+                        <button class="active">program</button>
+                        <button>publication</button>
+                    </div>
+
+                    <div class="study_con">
+                        <div class="swiper study01_list">
+                            <ul class="swiper-wrapper">
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program01.png" alt="프로그램">
+                                    <dl>
+                                        <dt>〈2025 청감회: 안티노미 ANTINOMY〉<br> 안광휘 </dt>
+                                        <dd>2025.09.06 – 2025.09.28</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program02.png" alt="프로그램">
+                                    <dl>
+                                        <dt>용적률 게임, 우리집 행복 쌓기 </dt>
+                                        <dd>교육기간<br> 2025.09.06 – 2025.09.28</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program03.png" alt="프로그램">
+                                    <dl>
+                                        <dt>《다시, 지구: 다른 감각으로 응답하기》</dt>
+                                        <dd>2025년 9월 13일 ~ 12월 20일</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program04.png" alt="프로그램">
+                                    <dl>
+                                        <dt>SeMA 공용공간 프로젝트<br> 《영원히 교차하는 춤》 </dt>
+                                        <dd>2025.09.10 – 2025.09.13</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program05.png" alt="프로그램">
+                                    <dl>
+                                        <dt> '스며들다 - 지금, 여기, 있음'</dt>
+                                        <dd>2025.09.23 오전 11:30 ~ 오후 1:00</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program06.png" alt="프로그램">
+                                    <dl>
+                                        <dt>〈되돌아오는 칼새〉<br> 주다은</dt>
+                                        <dd>2025.09.13 – 2025.09.27 </dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program07.png" alt="프로그램">
+                                    <dl>
+                                        <dt> 〈미술관의 대화상자: 장영혜중공업 vs. <br> 홍진훤: 중간 지대는 없다 展〉</dt>
+                                        <dd>상시</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/program08.png" alt="프로그램">
+                                    <dl>
+                                        <dt>〈되돌아오는 칼새〉<br> 주다은 </dt>
+                                        <dd>2025.09.13 – 2025.09.27</dd>
+                                    </dl>
+
+                                    <a href="sub/Study02.html" class="view">viwe_more</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="swiper study02_list">
+                            <ul class="swiper-wrapper">
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication01.png" alt="출판">
+                                    <dl>
+                                        <dt>김범, 바위가 되는 법</dt>
+                                        <dd>26.5 x 21.0 x 4.8 cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication02.png" alt="출판">
+                                    <dl>
+                                        <dt>니콜라스 파티: 더스트</dt>
+                                        <dd>28.5 x 23.5 x 3.0 cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication03.png" alt="출판">
+                                    <dl>
+                                        <dt>박보마, 물질의 의식 </dt>
+                                        <dd>150 x 235mm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication04.png" alt="출판">
+                                    <dl>
+                                        <dt>아니쉬 카푸어 / 오브제</dt>
+                                        <dd>18.1 x 25.5cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication05.png" alt="출판">
+                                    <dl>
+                                        <dt>히로시 스기모토</dt>
+                                        <dd>23.7 X 29.7cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication06.png" alt="출판">
+                                    <dl>
+                                        <dt>필립 파레노: 보이스</dt>
+                                        <dd>21.0 x 17.5 x 4.0 cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication07.png" alt="출판">
+                                    <dl>
+                                        <dt>『경험으로서 미술관』</dt>
+                                        <dd>170 × 240 mm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <img src="images/main/publication08.png" alt="출판">
+                                    <dl>
+                                        <dt>필립 파레노 '보이스'</dt>
+                                        <dd>18 x 11.1 x 3.8cm</dd>
+                                    </dl>
+
+                                    <a href="sub/Study01.html" class="view">viwe_more</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <footer id="footer" class="section fp-auto-height">
+                <div class="inner">
+                    <div class="footer_top">
+                        <div class="footer_logo"><img src="images/common/logo_w.svg" alt="리움"></div>
+
+                        <div class="footer_sns">
+                            <a href="https://www.instagram.com/leeummuseumofart/" target="_blank"><img
+                                    src="images/common/insta.svg" alt="인스타그램"></a>
+                            <a href="https://www.youtube.com/channel/UCyXVnJijxHsBrzN9AAZ-Yxw" target="_blank"><img
+                                    src="images/common/youtube.svg" alt="유튜브"></a>
+                            <a href="https://www.facebook.com/leeumofficial" target="_blank"><img
+                                    src="images/common/facebook_2.svg" alt="페이스북"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer_bottom">
+                        <p class="address">04348 서울특별시 용산구 이태원로55길 60-16 <br>대표전화. 02-2014-6900</p>
+
+                        <div class="footer_link">
+                            <a href="sub/Guide02.html">미술관 소개</a>
+                            <a href="sub/Guide01.html">공지</a>
+                            <a href="#">이메일 문의</a>
+                            <br><a href="#">개인정보 처리방침</a>
+                        </div>
+                    </div>
+
+                    <p class="copy">Ⓒ Leeum Museum of Art, All Rights Reserved.</p>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
