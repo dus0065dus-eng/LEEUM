@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeum</title>
+
+    <link rel="shortcut icon" href="images/SVG/favicon.svg" type="image/x-icon">
+    <!-- og 링크를 보내면 노출되어지는 부분 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="리움미술관">
+    <meta property="og:url" content="https://www.leeumhoam.org/">
+    <meta property="og:image" content="images/common/logo_b.svg">
+    <meta property="og:description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <!-- 검색 관련 코드 :포털사이트에 등록하면 검색했을 때 나오는 부분 -->
+    <meta name="keywords" content="리움미술관">
+    <meta name="description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="js/jquery.fullpage.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="login_wrap">
+        <div class="login_page">
+            <div class="login_left">
+                <img src="images/login_left_02.png" alt="Leeum">
+            </div>
+
+            <div class="login_right">
+                <div class="inner">
+                    <h2>LEEUM</h2>
+                    <form action="#">
+                        <fieldset>
+                            <legend>검색영역</legend>
+                            <input type="text" required placeholder="ID를 입력하시오.">
+                            <input type="text" required placeholder="PW를 입력하시오.">
+                            <input type="checkbox" id="keep">
+                            <label for="keep">로그인 상태 유지하기</label>
+                            <input type="submit" value="로그인">
+                        </fieldset>
+                    </form>
+                    <div class="login_link01">
+                        <a href="#">비밀번호 찾기</a>
+                        <a href="#">아이디 찾기</a>
+                        <a href="#">회원가입</a>
+                    </div>
+
+                    <div class="login_link02">
+                        <p>간편로그인</p>
+                        <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D9e27080357b3af98899428feea397d69%26redirect_uri%3Dhttps%253A%252F%252Fwww.leeumhoam.org%252Fsocial%252Fkakao%26state%3Df647abd4-bb57-479f-9f71-efa41f224ad1%26lang%3Dko%26lang%3Dkor%26auth%3D1%26hoam%3Dfalse%26pageUrl%3D%252Flogin%252Fkakao%26active%3Dprod%26today%3D0930%26filePath%3Dhttps%253A%252F%252Fwww.leeumhoam.org%252Fupload%26through_account%3Dtrue&lang=ko#login"
+                            target="_blank"><img src="images/common/login_kakao.svg" alt="kakao"></a>
+                        <a href="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=rHanQaujvbHTtsUdZ_nE&redirect_uri=https%3A%2F%2Fwww.leeumhoam.org%2Fsocial%2Fnaver&state=aaa25034-3674-4de8-b32d-9573176bf703&auth=1&hoam=false&pageUrl=%2Flogin%2Fnaver&active=prod&lang=kor&today=0930&filePath=https%3A%2F%2Fwww.leeumhoam.org%2Fupload"
+                            target="_blank"><img src="images/common/login_naver.svg" alt="naver"></a>
+                        <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&client_id=432388584152-dkhv7tejl8hktcn8gjgv9nmb789hrlpj.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.leeumhoam.org%2Fsocial%2Fgoogle&state=fab7860c-6780-4bdc-95e0-63f14b0675db&scope=openid&hoam=false&pageUrl=%2Flogin%2Fgoogle&active=prod&lang=kor&today=0930&filePath=https%3A%2F%2Fwww.leeumhoam.org%2Fupload&service=lso&o2v=2&flowName=GeneralOAuthFlow"
+                            target="_blank"><img src="images/common/LOGIN_GOOGLE.svg" alt="google"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeum</title>
+
+
+    <link rel="shortcut icon" href="../images/SVG/favicon.svg" type="image/x-icon">
+    <!-- og 링크를 보내면 노출되어지는 부분 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="리움미술관">
+    <meta property="og:url" content="https://www.leeumhoam.org/">
+    <meta property="og:image" content="images/common/logo_b.svg">
+    <meta property="og:description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <!-- 검색 관련 코드 :포털사이트에 등록하면 검색했을 때 나오는 부분 -->
+    <meta name="keywords" content="리움미술관">
+    <meta name="description" content="삼성문화재단이 운영하는 리움미술관, 호암미술관 홈페이지입니다.">
+
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sub.css">
+
+
+
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/sub.js"></script>
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header id="header" class="on">
+            <div class="inner">
+
+                <h1><a href="../index.html">리움</a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="Guide01.html">방문 안내</a>
+
+                            <ul class="depth2">
+                                <li><a href="Guide01.html">공지</a></li>
+                                <li><a href="Guide02.html">미술관 소개</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li><a href="Exhibition01.html">전시</a>
+                            <ul class="depth2">
+                                <li><a href="Exhibition01.html">현재전시</a></li>
+                                <li><a href="Exhibition02.html">예정전시</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="Collection01.html">소장품</a>
+                            <ul class="depth2">
+                                <li><a href="Collection01.html">고미술</a></li>
+                                <li><a href="Collection02.html">현대미술</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="Study01.html">배움연구</a>
+                            <ul class="depth2">
+                                <li><a href="Study01.html">출판</a></li>
+                                <li><a href="Study02.html">프로그램</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="My.html">MY</a>
+                            <ul class="depth2">
+                                <li><a href="My.html">memory</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mgnb_wrap">
+
+                        <div class="m_search">
+                            <form action="#">
+                                <fieldset>
+                                    <legend>검색영역</legend>
+                                    <div class="m_input_box">
+                                        <input type="text" placeholder="검색어를 입력하시오.">
+                                        <input type="submit">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <ul class="mgnb">
+                            <li><a href="Guide01.html">방문 안내</a>
+
+                                <ul class="mdepth2">
+                                    <li><a href="Guide01.html">공지</a></li>
+                                    <li><a href="Guide02.html">미술관 소개</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li><a href="Exhibition01.html">전시</a>
+                                <ul class="mdepth2">
+                                    <li><a href="Exhibition01.html">현재전시</a></li>
+                                    <li><a href="Exhibition02.html">예정전시</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="Collection01.html">소장품</a>
+                                <ul class="mdepth2">
+                                    <li><a href="Collection01.html">고미술</a></li>
+                                    <li><a href="Collection02.html">현대미술</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="Study01.html">배움연구</a>
+                                <ul class="mdepth2">
+                                    <li><a href="Study01.html">출판</a></li>
+                                    <li><a href="Study02.html">프로그램</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="My.html">MY</a>
+                                <ul class="mdepth2">
+                                    <li><a href="My.html">memory</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button class="mgnb_close">메뉴닫기</button>
+                    </div>
+
+                </nav>
+
+                <div class="util">
+                    <button class="btn_search">검색창열기</button>
+                    <a href="../login.html" target="_blank"><button class="btn_login">로그인하기</button></a>
+                    <button class="btn_ham">메뉴열기</button>
+                </div>
+            </div>
+
+            <div class="search">
+                <form action="#">
+                    <fieldset>
+                        <legend>검색영역</legend>
+                        <div class="search_box">
+                            <input type="text" placeholder="검색어를 입력하시오.">
+                            <input type="submit">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </header>
+
+        <div id="container">
+            <div class="sub_visual bg_guide">
+
+                <div class="sub_title">
+                    <h2>방문안내</h2>
+                </div>
+
+                <ul class="lnb">
+                    <li class="on"><a href="Guide01.html">공지</a></li>
+                    <li><a href="Guide02.html">미술관 소개</a></li>
+                </ul>
+
+            </div>
+
+            <div class="sub_contents Guide_con">
+                <div class="inner">
+                    <div class="notice">
+
+                        <div class="notice_search">
+                            <form action="#">
+                                <fieldset>
+                                    <legend>공지사항 검색영역</legend>
+                                    <select name="" id="">
+                                        <option value="">전체</option>
+                                        <option value="">제목</option>
+                                        <option value="">내용</option>
+                                    </select>
+                                    <input type="text">
+                                    <input type="submit" value="검색">
+                                </fieldset>
+                            </form>
+                        </div>
+
+                        <table>
+                            <caption>공지사항 목록</caption>
+
+                            <tr>
+                                <th>번호</th>
+                                <th>제목 </th>
+                                <th>등록일</th>
+                            </tr>
+
+                            <tr>
+                                <td>100</td>
+                                <td>[공지] 리움미술관 ↔ 호암미술관 셔틀버스 운행 안내: 2025. 8. 30.(토) – 2026. 1. 4. (일)</td>
+                                <td>2025.08.22</td>
+                            </tr>
+
+                            <tr>
+                                <td>99</td>
+                                <td>[공지] 현대미술 소장품 기획전 (M２) 관람 제한 안내: 8.26.(화)</td>
+                                <td>2025.08.18</td>
+                            </tr>
+
+                            <tr>
+                                <td>98</td>
+                                <td>[공지] 단축 운영 안내: 9. 2.(화) 13시까지</td>
+                                <td>2025.08.12</td>
+                            </tr>
+
+                            <tr>
+                                <td>97</td>
+                                <td>[공지] 고미술 상설전 2층 《감상과 취향》 관람 제한 안내: 8. 12.(화) ~ 31.(일)</td>
+                                <td>2025.08.08</td>
+                            </tr>
+
+                            <tr>
+                                <td>96</td>
+                                <td>[공지] 삼성문화재단 계약직 채용 (홍보 기획)</td>
+                                <td>2025.07.21</td>
+                            </tr>
+
+                            <tr>
+                                <td>95</td>
+                                <td>[공지] 삼성문화재단 계약직 채용 (미술관교육, 소장품관리, IT보안)</td>
+                                <td>2025.07.02</td>
+                            </tr>
+
+                            <tr>
+                                <td>94</td>
+                                <td>[공지] 리움 카페 휴업: 6. 1.(일) – 6. 11.(수)</td>
+                                <td>2025.05.29</td>
+                            </tr>
+
+                            <tr>
+                                <td>93</td>
+                                <td>[공지] 미술관 임시 휴관 안내: 5. 25.(일)</td>
+                                <td>2025.05.19</td>
+                            </tr>
+
+                            <tr>
+                                <td>92</td>
+                                <td>[공지] 고미술 상설전 4층 《푸른빛 문양 한 점》 일부 공간 관람 제한: 5. 13.(화)</td>
+                                <td>2025.04.18</td>
+                            </tr>
+
+                            <tr>
+                                <td>91</td>
+                                <td>[공지] 5월 5일(월) '어린이 날' 정상 운영 및 5월 25일(일) 휴관 안내</td>
+                                <td>2025.03.25</td>
+                            </tr>
+
+                        </table>
+
+                        <div class="paging">
+                            <a class="first" href="Guide01.html"><img src="../images/sub/SVG/first.svg" alt="첫페이지로"></a>
+                            <a class="prev" href="Guide01.html"><img src="../images/sub/SVG/prev.svg" alt="이전페이지로"></a>
+                            <a class="on" href="Guide01.html">1</a>
+                            <a href="Guide01.html">2</a>
+                            <a href="Guide01.html">3</a>
+                            <a href="Guide01.html">4</a>
+                            <a href="Guide01.html">5</a>
+                            <a class="next" href="Guide01.html"><img src="../images/sub/SVG/next.svg" alt="다음페이지로"></a>
+                            <a class="last" href="Guide01.html"><img src="../images/sub/SVG/last.svg" alt="마지막페이지로"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_top">
+                    <div class="footer_logo"><img src="../images/common/logo_w.svg" alt="리움"></div>
+
+                    <div class="footer_sns">
+                        <a href="https://www.instagram.com/leeummuseumofart/" target="_blank"><img
+                                src="../images/common/insta.svg" alt="인스타그램"></a>
+                        <a href="https://www.youtube.com/channel/UCyXVnJijxHsBrzN9AAZ-Yxw" target="_blank"><img
+                                src="../images/common/youtube.svg" alt="유튜브"></a>
+                        <a href="https://www.facebook.com/leeumofficial" target="_blank"><img
+                                src="../images/common/facebook_2.svg" alt="페이스북"></a>
+                    </div>
+                </div>
+
+                <div class="footer_bottom">
+                    <p class="address">04348 서울특별시 용산구 이태원로55길 60-16 <br>대표전화. 02-2014-6900</p>
+
+                    <div class="footer_link">
+                        <a href="Guide02.html">미술관 소개</a>
+                        <a href="Guide01.html">공지</a>
+                        <a href="#">이메일 문의</a>
+                        <br><a href="#">개인정보 처리방침</a>
+                    </div>
+                </div>
+
+                <p class="copy">Ⓒ Leeum Museum of Art, All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
